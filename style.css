@@ -1,0 +1,45 @@
+.content{
+    display: flex;
+    justify-content: right;
+
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0px;
+
+    
+
+}.content>div{
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 0.5cm;
+    margin-left: 5px;
+}
+
+ 
+ 
+        .container{
+            margin: 20px auto;
+            height: 12cm;
+            width: 12cm;
+            border: solid 2px black;
+        }
+
+        .item-1, .item-2{
+            height: 4cm;
+            width: 4cm;
+        }
+
+        .item-1{
+            background-color: grey;
+            /* position: relative; */
+            left: 20px;
+        }
+
+        .item-2{
+            background-color: maroon;
+        }
+
+
+.footer{
+    height: 50cm;
+}
